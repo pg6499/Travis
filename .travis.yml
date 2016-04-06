@@ -19,7 +19,9 @@ after_success:
   - git log --oneline
   - git remote set-url origin https://github.com/pg6499/Travis.git
   - git push origin master
+  
 script:
+  -#!/usr/bin/env node
   - chmod u+x hello.js
   - chmod node hello.js
 #  - npm run coverage
