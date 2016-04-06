@@ -23,7 +23,7 @@ after_success:
 script:
   -#!/usr/bin/env node
   - chmod u+x hello.js
-  - chmod node hello.js
+  - node hello.js
 #  - npm run coverage
 #  - mv coverage/cobertura-coverage.xml shippable/codecoverage/coverage.xml
 #  - mocha test -R mocha-lcov-reporter  && 
