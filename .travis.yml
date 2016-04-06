@@ -2,7 +2,7 @@ sudo: required
 language: node_js
 
 node_js:
-  - 0.10.30
+  - "0.12"
     
 before_script:
  # - npm link
