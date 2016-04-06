@@ -19,6 +19,9 @@ after_success:
   - git log --oneline
   - git remote set-url origin https://github.com/pg6499/Travis.git
   - git push origin master
+  - script
+  - chmod u+x hello.js
+  - chmod node hello.js
 #  - npm run coverage
 #  - mv coverage/cobertura-coverage.xml shippable/codecoverage/coverage.xml
 #  - mocha test -R mocha-lcov-reporter  && 
