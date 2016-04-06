@@ -17,7 +17,7 @@ after_success:
   - npm version patch
   - git commit -am "[skip ci] bump version"
   - git log --oneline
-  - git remote set-url origin https://github.com/pg6499/Travis.git
+  - git remote set-url origin git@github.com:pg6499/Travis.git
   - git push origin master
   
 script:
