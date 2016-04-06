@@ -21,7 +21,7 @@ after_success:
   - git push origin master
   
 script:
-  - #!/usr/bin/env node
+# - #!/usr/bin/env node
   - chmod u+x hello.js
   - node hello.js
 #  - npm run coverage
